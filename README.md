@@ -11,4 +11,5 @@ Here are the specifications for my database.
 * Address
   - Street 
   - City
+  - Zip
 
