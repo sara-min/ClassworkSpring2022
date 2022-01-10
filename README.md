@@ -13,3 +13,5 @@ Here are the specifications for my database.
   - City
   - Zip
 
+### Info files
+HDL, LDL
