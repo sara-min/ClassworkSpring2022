@@ -1,6 +1,6 @@
 # Author Information
 
-Sara Min
+Hi! My name is Sara Min, and I'm from San Jose, CA.
 
 Here are some facts about me:
 * I like to dance and play soccer
