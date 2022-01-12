@@ -60,6 +60,6 @@ def LDL_driver():
 
 def totalCholesterol_driver():
     chol_value = accept_input("Total Cholesterol")
-    classification = ch
+    classification = check_cholesterol(chol_value)
 
 interface()
