@@ -62,7 +62,7 @@ def check_chol(chol_value):
         answer = "Normal"
     elif 200 <= chol_value <240:
         answer = "Borderline High"
-    else
+    else:
         answer = "High"
     return answer
 
