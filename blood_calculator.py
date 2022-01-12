@@ -10,6 +10,8 @@ def interface():
             keep_running = False
         elif choice == 1:
             HDL_driver()
+        elif choice == 2:
+            LDL_driver()
 
     return
     
