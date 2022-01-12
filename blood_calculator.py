@@ -4,7 +4,7 @@ def interface():
     while keep_running:
         print("Options: ")
         print("1-HDL")
-        print("2-HDL")
+        print("2-LDL")
         print("9-Quit")
         choice = input("Enter your choice: ")
         if choice == 9:
