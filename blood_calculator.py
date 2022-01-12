@@ -7,11 +7,11 @@ def interface():
         print("2-LDL")
         print("9-Quit")
         choice = input("Enter your choice: ")
-        if choice == 9:
+        if choice == "9":
             keep_running = False
-        elif choice == 1:
+        elif choice == "1":
             HDL_driver()
-        elif choice == 2:
+        elif choice == "2":
             LDL_driver()
 
     return
