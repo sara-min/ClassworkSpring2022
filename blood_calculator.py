@@ -1,3 +1,4 @@
+print("This is the blood_calculator module and python calls it {}".format(__name__))
 def interface():
     print("Blood Test Analysis")
     keep_running = True
@@ -72,4 +73,7 @@ def totalCholesterol_driver():
     classification = check_cholesterol(chol_value)
     print_result("Total Cholesterol", chol_value, classification)
 
-interface()
+if __name__ == "__main__":
+    interface()
+    # if you are importing blood calculator as a modeule, skip this line
+
