@@ -17,4 +17,4 @@ x = bc.check_LDL(200)
 def function():
     print("1")
 def function():
-    print("2")
+    print("2")  
