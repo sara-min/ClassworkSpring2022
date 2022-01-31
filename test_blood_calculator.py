@@ -18,9 +18,9 @@ def test_check_HDL(input_HDL, expected):
 @pytest.mark.parametrize("input_tupa, input_tupb, inputc, expected", [
     [(1,1), (2,2), 4, 4],
 ])  # a decorator
-def test_slope(input_tupa, input_tupb, inputc, expected):
-    from blood_calculator import slope
-    answer = slope(input_tupa, input_tupb, inputc)
+def test_function(input_tupa, input_tupb, inputc, expected):
+    from blood_calculator import function
+    answer = function(input_tupa, input_tupb, inputc)
     assert answer == expected
 
 
