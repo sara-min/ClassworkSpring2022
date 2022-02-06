@@ -87,20 +87,28 @@ def totalCholesterol_driver():
 
 def function(a, b, x):
     m = slope(a, b)
-    c = y_intercept(a, b)
+    print("slope: " + str(m))
+    c = y_intercept(a, m)
+    print("y-intercept: "+str(c))
+    print(m*x + c)
     return m*x + c
 
 
 def slope(a, b):
-    dy = b(2) - a(2)
-    dx = b(1) - a(1)
+    dy = b[1] - a[1]
+    dx = b[0] - a[0]
     return dy/dx
 
 
-def y_intercept(a, b):
-    return 1
+def y_intercept(a, m):
+    c = a[1] - m*a[0]
+    return c
 
 
 if __name__ == "__main__":
     interface()
+    a = (1,1)
+    b = (4,9)
+    x=5
+    function(a, b, x)
     # if you are importing blood calculator as a modeule, skip this line
